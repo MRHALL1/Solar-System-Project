@@ -103,6 +103,7 @@ GameObject:
   - 23: {fileID: 282519295}
   - 114: {fileID: 282519298}
   - 114: {fileID: 282519299}
+  - 114: {fileID: 282519300}
   m_Layer: 0
   m_Name: Saturn
   m_TagString: Untagged
@@ -197,6 +198,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 382316079}
   speed: 5
+--- !u!114 &282519300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 282519293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c7f69f5d827924387e7c29dd24fad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 282519293}
 --- !u!1 &382316075
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,6 +223,7 @@ GameObject:
   - 23: {fileID: 382316076}
   - 114: {fileID: 382316080}
   - 82: {fileID: 382316081}
+  - 114: {fileID: 382316082}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Untagged
@@ -312,7 +326,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8ef22bf0b0eb4c644920236a09c28711, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.21
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -375,6 +389,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &382316082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 382316075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c7f69f5d827924387e7c29dd24fad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 382316075}
 --- !u!1 &466290132
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,6 +414,7 @@ GameObject:
   - 23: {fileID: 466290134}
   - 114: {fileID: 466290137}
   - 114: {fileID: 466290138}
+  - 114: {fileID: 466290139}
   m_Layer: 0
   m_Name: Neptune
   m_TagString: Untagged
@@ -482,6 +509,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 382316079}
   speed: 2
+--- !u!114 &466290139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 466290132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c7f69f5d827924387e7c29dd24fad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 466290132}
 --- !u!1 &544317584
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,6 +534,7 @@ GameObject:
   - 23: {fileID: 544317585}
   - 114: {fileID: 544317590}
   - 114: {fileID: 544317589}
+  - 114: {fileID: 544317591}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -557,8 +597,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 544317584}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalPosition: {x: -0.95, y: 0, z: 0}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 757630074}
@@ -589,6 +629,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 544317588}
   speed: 15
+--- !u!114 &544317591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 544317584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c7f69f5d827924387e7c29dd24fad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 544317584}
 --- !u!1 &551274112
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,6 +654,7 @@ GameObject:
   - 23: {fileID: 551274114}
   - 114: {fileID: 551274117}
   - 114: {fileID: 551274118}
+  - 114: {fileID: 551274119}
   m_Layer: 0
   m_Name: Uranus
   m_TagString: Untagged
@@ -696,6 +749,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 382316079}
   speed: 3
+--- !u!114 &551274119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 551274112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c7f69f5d827924387e7c29dd24fad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 551274112}
 --- !u!1 &757630070
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,6 +774,7 @@ GameObject:
   - 23: {fileID: 757630071}
   - 114: {fileID: 757630075}
   - 114: {fileID: 757630077}
+  - 114: {fileID: 757630076}
   m_Layer: 0
   m_Name: Earth
   m_TagString: Untagged
@@ -791,6 +857,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 757630074}
   speed: 100
+--- !u!114 &757630076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 757630070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c7f69f5d827924387e7c29dd24fad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 757630070}
 --- !u!114 &757630077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -817,6 +895,7 @@ GameObject:
   - 23: {fileID: 1008779543}
   - 114: {fileID: 1008779546}
   - 114: {fileID: 1008779547}
+  - 114: {fileID: 1008779548}
   m_Layer: 0
   m_Name: Mars
   m_TagString: Untagged
@@ -911,6 +990,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 382316079}
   speed: 53
+--- !u!114 &1008779548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1008779541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c7f69f5d827924387e7c29dd24fad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1008779541}
 --- !u!1 &1336041712
 GameObject:
   m_ObjectHideFlags: 0
@@ -949,7 +1040,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 7
   m_Type: 2
-  m_Color: {r: 0.875, g: 0.64426976, b: 0.23161766, a: 1}
+  m_Color: {r: 0.9411765, g: 0.7550412, b: 0.42214534, a: 1}
   m_Intensity: 3
   m_Range: 10
   m_SpotAngle: 30
@@ -987,6 +1078,7 @@ GameObject:
   - 124: {fileID: 1393748812}
   - 81: {fileID: 1393748811}
   - 82: {fileID: 1393748816}
+  - 114: {fileID: 1393748817}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1056,7 +1148,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1393748810}
   m_LocalRotation: {x: -0.044943422, y: -0.95125127, z: 0.16773117, w: -0.25488698}
-  m_LocalPosition: {x: -4, y: 3, z: 6}
+  m_LocalPosition: {x: -2, y: 1.5, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: -200, y: -30, z: -180}
   m_Children: []
@@ -1071,9 +1163,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bcb8ee03132d36447bc095a66a809785, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 42a18f45edb9bf340839eeba79cc3b7a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.55
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1136,6 +1228,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &1393748817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1393748810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb1fe8aa96c57474bace069c248f6960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1768315708
 GameObject:
   m_ObjectHideFlags: 0
@@ -1149,6 +1252,7 @@ GameObject:
   - 23: {fileID: 1768315710}
   - 114: {fileID: 1768315713}
   - 114: {fileID: 1768315714}
+  - 114: {fileID: 1768315715}
   m_Layer: 0
   m_Name: Venus
   m_TagString: Untagged
@@ -1243,6 +1347,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 382316079}
   speed: 163
+--- !u!114 &1768315715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1768315708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c7f69f5d827924387e7c29dd24fad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1768315708}
 --- !u!1 &1815205430
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,6 +1372,7 @@ GameObject:
   - 23: {fileID: 1815205432}
   - 114: {fileID: 1815205435}
   - 114: {fileID: 1815205436}
+  - 114: {fileID: 1815205437}
   m_Layer: 0
   m_Name: Mercury
   m_TagString: Untagged
@@ -1350,6 +1467,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 382316079}
   speed: 415
+--- !u!114 &1815205437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1815205430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c7f69f5d827924387e7c29dd24fad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1815205430}
 --- !u!1 &2089969078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1363,6 +1492,8 @@ GameObject:
   - 23: {fileID: 2089969080}
   - 114: {fileID: 2089969083}
   - 114: {fileID: 2089969084}
+  - 114: {fileID: 2089969085}
+  - 114: {fileID: 2089969086}
   m_Layer: 0
   m_Name: Pluto
   m_TagString: Untagged
@@ -1457,6 +1588,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 382316079}
   speed: 1
+--- !u!114 &2089969085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2089969078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c7f69f5d827924387e7c29dd24fad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2089969078}
+--- !u!114 &2089969086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2089969078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80ee8031aa7943c45b37417f47d689a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 2089969078}
 --- !u!1 &2131140228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,6 +1625,7 @@ GameObject:
   - 23: {fileID: 2131140230}
   - 114: {fileID: 2131140233}
   - 114: {fileID: 2131140234}
+  - 114: {fileID: 2131140235}
   m_Layer: 0
   m_Name: Jupiter
   m_TagString: Untagged
@@ -1564,3 +1720,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 382316079}
   speed: 9
+--- !u!114 &2131140235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2131140228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c7f69f5d827924387e7c29dd24fad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2131140228}
